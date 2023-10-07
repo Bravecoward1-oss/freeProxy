@@ -19,7 +19,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
     README = readme.read()
 
 
-VERSION = '0.1.2'
+VERSION = '0.1'
 
 setup(
     name='freeProxyProxies',  # package name

@@ -59,12 +59,12 @@ print("All Available Proxy Lists:", all_proxies)
 import freeProxyProxies
 
 # Example of printing proxy lists
-print("SSL Proxy List:", ssl_Proxy())
-print("Free Proxy List:", free_Proxy())
-print("US Proxy List:", US_Proxy())
-print("UK Proxy List:", UK_Proxy())
-print("Anonymous Proxy List:", anonymous_Proxy())
-print("All Available Proxy Lists:", all_Proxy())
+print("SSL Proxy List:", freeProxyProxies.ssl_Proxy())
+print("Free Proxy List:", freeProxyProxies.free_Proxy())
+print("US Proxy List:", freeProxyProxies.US_Proxy())
+print("UK Proxy List:", freeProxyProxies.UK_Proxy())
+print("Anonymous Proxy List:", freeProxyProxies.anonymous_Proxy())
+print("All Available Proxy Lists:", freeProxyProxies.all_Proxy())
 ```
 
 ## Contributions
